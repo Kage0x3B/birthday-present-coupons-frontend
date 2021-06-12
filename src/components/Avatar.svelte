@@ -25,7 +25,7 @@
     }
 </script>
 
-<img id="panda" src="/assets/panda.svg" on:click={wiggle} style="transform: translateY(-{$elevation * 30}px) scale({100 + $elevation * 5}%) rotateZ({$rotation * 40 - 20}deg); filter: drop-shadow(6px {$elevation * 12 + 6}px 0 rgba(0, 0, 0, {0.6 - $elevation * 0.6}))" />
+<img id="panda" src="/assets/panda.svg" on:click={wiggle} style="transform: translateY(-{$elevation * 50}px) scale({100 + $elevation * 5}%) rotateZ({$rotation * 40 - 20}deg); filter: drop-shadow(6px {$elevation * 18 + 6}px 0 rgba(0, 0, 0, {0.6 - $elevation * 0.6}))" />
 
 <style>
     #panda {

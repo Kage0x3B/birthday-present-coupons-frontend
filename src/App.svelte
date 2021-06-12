@@ -1,15 +1,7 @@
 <script>
-    import { _ } from "svelte-i18n";
     import { Router, Route } from "svelte-routing";
     import { Container } from "sveltestrap";
-    import api from "./api/api";
-    import { authInitialized, loggedIn } from "./stores";
     import Main from "./routes/Main.svelte";
-
-    if (!$authInitialized) {
-        $authInitialized = true;
-        $loggedIn = api.loadAuth();
-    }
 </script>
 
 <Router basepath="/">

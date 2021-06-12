@@ -114,4 +114,6 @@ body {
         linear-gradient(46deg, $red 25%, transparent 25%);
     background-size: 100px 100px;
     background-color: $pink;
+
+    user-select: none;
 }
